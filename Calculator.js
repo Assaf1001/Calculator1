@@ -283,7 +283,7 @@ percentButton.addEventListener('click',()=>{
             percentIsFirtTime = false
         }
         let percentNumber2 = display.innerHTML
-        if (isFirstTime && (!displayHistory.innerHTML.includes('+') || !displayHistory.innerHTML.includes('-'))){
+        if (!percentIsFirtTime && (!displayHistory.innerHTML.includes('+') || !displayHistory.innerHTML.includes('-'))){
             display.innerHTML = percentage (percentNumber, percentNumber2, percentId)
             displayHistory.innerHTML = percentNumber + percentId + display.innerHTML
         }
