@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="display-container">
+            <p id="display-history"></p> 
+            <p id="display"></p>
+        </div>
+        <div class="m-buttons-container">
+            <div class="button">
+                <button class="m-button" id="mc" disabled>MC</button>
+            </div>
+            <div class="button">
+                <button class="m-button" id="mr" disabled>MR</button>
+            </div>
+            <div class="button">
+                <button class="m-button" id="m+">M+</button>
+            </div>
+            <div class="button">
+                <button class="m-button" id="m-">M-</button>
+            </div>
+            <div class="button">
+                <button class="m-button" id="ms">MS</button>
+            </div>
+            <div class="button">
+                <button class="m-button" id="m▼" disabled>M▼</button>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <div class="button">
+                <button id="%">%</button>
+            </div>
+            <div class="button">
+                <button class="c-button" id="ce">CE</button>
+            </div>
+            <div class="button">
+                <button class="c-button" id="c">C</button>
+            </div>
+            <div class="button">
+                <button class="c-button" id="<<"><<</button>
+            </div>
+            <div class="button">
+                <button class="square-button" id="1/x">1/x</button>
+            </div>
+            <div class="button">
+                <button class="square-button" id="x²">x²</button>
+            </div>
+            <div class="button">
+                <button class="square-button" id="²√x">²√x</button>
+            </div>
+            <div class="button">
+                <button class="operator" id="/">÷</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="7">7</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="8">8</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="9">9</button>
+            </div>
+            <div class="button">
+                <button class="operator" id="*">X</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="4">4</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="5">5</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="6">6</button>
+            </div>
+            <div class="button">
+                <button class="operator" id="-">-</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="1">1</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="2">2</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="3">3</button>
+            </div>
+            <div class="button">
+                <button class="operator" id="+">+</button>
+            </div>
+            <div class="button">
+                <button class="utility-button" id="+/-">+/-</button>
+            </div>
+            <div class="button">
+                <button class="numeric-button" id="0">0</button>
+            </div>
+            <div class="button">
+                <button class="utility-button" id=".">.</button>
+            </div>
+            <div class="button">
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+        <div id="modal" class="none">
+            <div class="modal__box" id="modal-box"></div>
+        </div>
+    </div>
+
+    <script src="./Calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+.calculator-container{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 550px;
+    border: 2px solid black;
+    background: lightsteelblue;
+}
+
+.display-container{
+    display: block;
+    width: 100%;
+    height: 24%;  
+    text-align: right;
+}
+
+#display-history{
+    margin-top: 15px;
+    padding-top: 10px;
+    margin: 5px 5px;
+    font-size: 1.7rem;
+    width: 97%;
+    height: 60px;
+    text-align: right;
+    color:rgb(102, 102, 102);
+    background-color:lightsteelblue;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+#display{
+    height: 60px;
+    margin-right: 5px;
+    margin-top: 5px; 
+    font-size: 3rem;
+}
+
+.m-buttons-container{
+    display: grid;
+    margin-top: 2px;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.m-button{
+    border: none;
+    background: none;
+    height: 70%;
+    margin-top: 18px;
+    font-size: 1rem;
+}
+
+.buttons-container{
+    display: grid;
+    width: 100%;
+    height: 65%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+button{
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    width: 95%;
+    height: 90%;
+    background: rgb(228, 228, 228);
+}
+
+.numeric-button , .utility-button{
+    background: white;
+}
+
+button:hover {
+    background: lightgray 
+}
+
+#equal{
+    background: lightblue;
+}
+
+#equal:hover{
+    background: lightskyblue;
+}
+
+.modal {
+    width: 350px;
+    height: 335px;
+    position: fixed;
+    top: 215px ;
+    left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__box {
+    width: 100%;
+    height: 100%;
+    background: rgb(148, 181, 224);
+    text-align: right;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: auto;
+    overflow-x: hidden; 
+}
+
+.none {
+    display: none;
+}
+
+.modal__box h3:hover {
+    background: lightgray;
+}
